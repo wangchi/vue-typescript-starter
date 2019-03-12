@@ -1,0 +1,52 @@
+{
+  "name": "vue-typescript-starter",
+  "version": "0.0.1",
+  "description": "Using TypeScript with Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.dev.config.js --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangchi/vue-typescript-starter.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Vue.js"
+  ],
+  "author": "Wang Chi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangchi/vue-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/wangchi/vue-typescript-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-vue-jsx": "^4.0.1",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "iview": "^3.3.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.13.1",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.3.3333",
+    "url-loader": "^1.1.2",
+    "vue": "^2.6.8",
+    "vue-class-component": "^7.0.1",
+    "vue-loader": "^15.7.0",
+    "vue-property-decorator": "^8.0.0",
+    "vue-router": "^3.0.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.8",
+    "vuex": "^3.1.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
