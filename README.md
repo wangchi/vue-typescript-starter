@@ -4,11 +4,15 @@ Using TypeScript with Vue
 
 ## Features
 
-+ TypeScript
-+ Vue.js
-+ Vue Router
-+ Vuex
-+ iView UI Framework
+> will coming soon
+
+## Technology Stacks
+
++ [TypeScript](https://www.typescriptlang.org/)
++ [Vue.js](https://vuejs.org/)
++ [Vue Router](https://router.vuejs.org/)
++ [Vuex](https://vuex.vuejs.org/)
++ [iView UI Framework](https://iviewui.com/)
 
 ## Usage
 
