@@ -1,10 +1,16 @@
 # Vue TypeScript Starter
 
-Using TypeScript with Vue
+Using TypeScript with Vue.js, including Vue-Router, Vuex and Element UI library
 
 ## Features
 
-> will coming soon
++ Vue full stack
++ Use TypeScript write Vue components
++ Use sass write css
++ Beautify UI Library with Element UI
++ Support TSX and decorator
++ Support dynamic import
++ Optimized build
 
 ## Technology Stacks
 
@@ -12,15 +18,22 @@ Using TypeScript with Vue
 + [Vue.js](https://vuejs.org/)
 + [Vue Router](https://router.vuejs.org/)
 + [Vuex](https://vuex.vuejs.org/)
-+ [iView UI Framework](https://iviewui.com/)
++ [Element UI Library](http://element-cn.eleme.io/#/en-US)
 
 ## Usage
 
 Clone the project then run the following commands
 
-```bash
+```shell
 npm i
 npm run dev
+```
+
+Build and preview
+
+```shell
+npm run build
+npm start
 ```
 
 ## LICENSE

@@ -4,7 +4,9 @@
   "description": "Using TypeScript with Vue.js",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --config ./webpack.dev.config.js --hot"
+    "dev": "NODE_ENV=development webpack-dev-server --config ./webpack.dev.config.js --hot",
+    "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress",
+    "start": "serve ./dist -p 9002"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,15 @@
     "url": "https://github.com/wangchi/vue-typescript-starter/issues"
   },
   "homepage": "https://github.com/wangchi/vue-typescript-starter#readme",
+  "dependencies": {
+    "element-ui": "^2.6.1",
+    "serve": "^10.1.2",
+    "vue": "^2.6.8",
+    "vue-class-component": "^7.0.1",
+    "vue-property-decorator": "^8.0.0",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
@@ -27,27 +38,27 @@
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0-beta.2",
     "@vue/babel-preset-jsx": "^1.0.0-beta.2",
     "babel-loader": "^8.0.5",
+    "babel-plugin-component": "^1.1.1",
+    "clean-webpack-plugin": "^2.0.0",
     "css-loader": "^2.1.1",
     "file-loader": "^3.0.1",
     "html-webpack-plugin": "^3.2.0",
-    "iview": "^3.3.0",
+    "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
     "sass-loader": "^7.1.0",
     "ts-loader": "^5.3.3",
     "tslint": "^5.13.1",
     "tslint-config-standard": "^8.0.1",
     "typescript": "^3.3.3333",
+    "uglifyjs-webpack-plugin": "^2.1.2",
     "url-loader": "^1.1.2",
-    "vue": "^2.6.8",
-    "vue-class-component": "^7.0.1",
     "vue-loader": "^15.7.0",
-    "vue-property-decorator": "^8.0.0",
-    "vue-router": "^3.0.2",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.8",
-    "vuex": "^3.1.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.1"
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
   }
 }

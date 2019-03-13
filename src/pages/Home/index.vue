@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     homepage
-    <i-button type="success">button</i-button>
+    <el-button type="primary">button</el-button>
     <div class="content">red</div>
     <tsx-demo msg="Hi, are you ok?"></tsx-demo>
   </div>
